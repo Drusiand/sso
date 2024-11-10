@@ -2,10 +2,11 @@ package app
 
 import (
 	"log/slog"
+	"time"
+
 	grpcapp "sso/internal/app/grpc"
 	"sso/internal/services/auth"
 	"sso/internal/storage/sqlite"
-	"time"
 )
 
 type App struct {

@@ -3,6 +3,7 @@ package auth
 import (
 	"context"
 	"errors"
+
 	"sso/internal/services/auth"
 	"sso/internal/storage"
 

@@ -2,13 +2,14 @@ package main
 
 import (
 	"fmt"
-	"log/slog"
 	"os"
 	"os/signal"
+	"syscall"
+
+	"log/slog"
 	"sso/internal/app"
 	"sso/internal/config"
 	"sso/internal/lib/logger/handlers/slogpretty"
-	"syscall"
 )
 
 const (
